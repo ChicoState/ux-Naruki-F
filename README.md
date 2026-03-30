@@ -3,4 +3,4 @@
 <p>I'm an international student from Japan. I'm a junior in Computer Science.</p>
 
 ## UX Journal
-[Netflix Profile Deletion](journal1.md)
+[Why Can't I Delete My Own Netflix Profile?](journal1.md)
