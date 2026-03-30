@@ -42,3 +42,6 @@ delete option when accessing it from another profile.
 After clicking "Delete Profile," a confirmation prompt appeared, and the
 "DeleteMe" profile was finally removed.
 ![Manage Profiles screen after deleting DeleteMe](assets/After_deleting_DeleteMe.JPG)
+
+
+## UX Analysis
