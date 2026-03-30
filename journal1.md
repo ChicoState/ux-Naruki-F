@@ -54,7 +54,5 @@ That said, there is room to defend Netflix’s design intent. The decision to pr
 accidental deletion, especially for profiles used by children. However, this safety measure comes at the expense of discoverability. For example, if they displayed a delete button on the Edit Profile screen and added a confirmation step requiring a password, users could easily find the delete function while still preventing accidental deletion. I also tried performing the same operation on a computer, and on a computer, you can delete your own profile from your own profile.  
 
 
-:::note info
-  I also tried performing the same operation on a computer, and found that you *can* delete your own profile from your own profile on the desktop version. This difference between the iPad app and the desktop version is causing inconsistencies in the deletion process.
-:::
-
+Interestingly, I also tried performing the same operation on a computer, and found that you *can* delete your own profile from your own profile on the desktop version. This difference between the iPad app and the desktop version is causing inconsistencies in the deletion process.
+![Edit Profile on PC](assets/Edit_Profile_on_PC.jpeg)
