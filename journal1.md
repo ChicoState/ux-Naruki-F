@@ -45,3 +45,16 @@ After clicking "Delete Profile," a confirmation prompt appeared, and the
 
 
 ## UX Analysis
+The biggest issue with this experience was that my **mental model** didn’t align with how the system actually worked. A **mental model** refers to the predictions and expectations users hold in their minds about how a system should work. In my case, I had a mental model that “I should be able to manage all my profile settings while logged into that profile.” While I could change my name, language settings, viewing restrictions, and other settings all from that profile, I couldn’t delete it. I felt this was a design that betrayed natural expectations.  
+Another issue was **discoverability**. **Discoverability** refers to how easily a user can find out “what they can do” and “how to do it.” In this case, there were absolutely no hints or explanations regarding the mechanism where the delete button
+doesn’t appear unless you switch to a different profile. If there had been a message on the “Edit Profile” screen saying, “To delete, please access from a different profile,” users would at least know what to do next. However, in reality, there was nothing, leaving users with no choice but to figure it out through trial and error.
+
+
+That said, there is room to defend Netflix’s design intent. The decision to prevent users from deleting their own profiles directly may be intended to prevent accidental deletion. It is understandable that they would want to avoid the risk of
+accidental deletion, especially for profiles used by children. However, this safety measure comes at the expense of discoverability. For example, if they displayed a delete button on the Edit Profile screen and added a confirmation step requiring a password, users could easily find the delete function while still preventing accidental deletion. I also tried performing the same operation on a computer, and on a computer, you can delete your own profile from your own profile.  
+
+
+:::note info
+  I also tried performing the same operation on a computer, and found that you *can* delete your own profile from your own profile on the desktop version. This difference between the iPad app and the desktop version is causing inconsistencies in the deletion process.
+:::
+
