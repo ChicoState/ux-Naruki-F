@@ -51,8 +51,8 @@ doesn’t appear unless you switch to a different profile. If there had been a m
 
 
 That said, there is room to defend Netflix’s design intent. The decision to prevent users from deleting their own profiles directly may be intended to prevent accidental deletion. It is understandable that they would want to avoid the risk of
-accidental deletion, especially for profiles used by children. However, this safety measure comes at the expense of discoverability. For example, if they displayed a delete button on the Edit Profile screen and added a confirmation step requiring a password, users could easily find the delete function while still preventing accidental deletion. I also tried performing the same operation on a computer, and on a computer, you can delete your own profile from your own profile.  
+accidental deletion, especially for profiles used by children. However, this safety measure comes at the expense of discoverability. For example, if they displayed a delete button on the Edit Profile screen and added a confirmation step requiring a password, users could easily find the delete function while still preventing accidental deletion.
 
 
-Interestingly, I also tried performing the same operation on a computer, and found that you *can* delete your own profile from your own profile on the desktop version. This difference between the iPad app and the desktop version is causing inconsistencies in the deletion process.
+Interestingly, I also tried performing the same operation on a computer, and found that you *can* delete your own profile from your own profile on the desktop version. This inconsistency between the iPad app and the desktop experiences makes the iPad's limitation feel even more arbitrary. Perhaps the Netflix development team assumes that children are more likely to use tablets than PCs, so they applied stricter safeguards on the iPad app.
 ![Edit Profile on PC](assets/Edit_Profile_on_PC.jpeg)
