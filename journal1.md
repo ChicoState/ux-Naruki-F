@@ -24,6 +24,8 @@ I selected the "DeleteMe" profile from the Manage Profiles screen (the same scre
 ![Manage Profiles screen accessed from naru](assets/Select_Manage_Profiels.JPG)
 
 
+
+
 And this time, the "Edit Profile" page for "DeleteMe" had a "Delete Profile" button at the very bottom. The exact same profile, the exact same "Edit Profile" screen, but with one crucial difference: I could only see the delete option when accessing it from another profile.
 ![Edit Profile screen with Delete Profile button visible](assets/naru_Manage_Profiles.jpg)  
 
