@@ -16,7 +16,7 @@ This opened the "Edit Profile" page, where I could change the profile name, lang
 
 
 ## How to Delete My Profile
-After some searching, I discovered that to delete a profile, you have to switch to a *different* profile first. So I switched to my main profile, "naru," and tapped "Manage Profiles" from there.
+Through trial and error, I discovered that to delete a profile, you have to switch to a *different* profile first. So I switched to my main profile, "naru," and tapped "Manage Profiles" from there.
 ![naru profile page with Switch Profiles menu](assets/naru_Profile.jpg)
 
 
@@ -33,13 +33,11 @@ After clicking "Delete Profile," a confirmation prompt appeared, and the "Delete
 
 
 ## UX Analysis
-The biggest issue with this experience was that my **mental model** didn’t align with how the system actually worked. A **mental model** refers to the predictions and expectations users hold in their minds about how a system should work. In my case, I had a mental model that “I should be able to manage all my profile settings while logged into that profile.” While I could change my name, language settings, viewing restrictions, and other settings all from that profile, I couldn’t delete it. I felt this was a design that betrayed natural expectations.  
-Another issue was **discoverability**. **Discoverability** refers to how easily a user can find out “what they can do” and “how to do it.” In this case, there were absolutely no hints or explanations regarding the mechanism where the delete button
-doesn’t appear unless you switch to a different profile. If there had been a message on the “Edit Profile” screen saying, “To delete, please access from a different profile,” users would at least know what to do next. However, in reality, there was nothing, leaving users with no choice but to figure it out through trial and error.
+The biggest issue with this experience was that my **mental model** didn’t align with how the system actually worked. A **mental model** refers to the predictions and expectations users hold in their minds about how a system should work. When I couldn’t find the delete button, I initially thought it was a bug. I closed the app, reopened it, and tried accessing “Edit Profile” again, but the button was still missing. I was convinced that since I was logged into the same profile and could change my name, language, and viewing restrictions, the delete option must be there too. It wasn’t until I tried accessing it from a different profile that the delete button appeared, and I realized this wasn’t a bug but an intentional design choice.
 
+Another issue was **discoverability**. **Discoverability** refers to how easily a user can find out “what they can do” and “how to do it.” In this case, there were absolutely no hints or explanations regarding the mechanism where the delete button doesn’t appear unless you switch to a different profile. I just happened to notice the button when I switched to a different profile. If there had been a message on the “Edit Profile” screen saying, “To delete, please access from a different profile,” users would at least know what to do next. However, in reality, there was nothing, leaving users with no choice but to figure it out through trial and error. 
 
-That said, there is room to defend Netflix’s design intent. The decision to prevent users from deleting their own profiles directly may be intended to prevent accidental deletion. It is understandable that they would want to avoid the risk of
-accidental deletion, especially for profiles used by children. However, this safety measure comes at the expense of discoverability. For example, if they displayed a delete button on the Edit Profile screen and added a confirmation step requiring a password, users could easily find the delete function while still preventing accidental deletion.
+So why did Netflix choose to make it impossible to delete your profile? The reason may be that the decision to prevent users from deleting their own profiles directly is intended to prevent accidental deletion, especially for profiles used by children. However, this safety measure comes at the expense of discoverability. For example, if they displayed a delete button on the Edit Profile screen and added a confirmation step requiring a password, users could easily find the delete function while still preventing accidental deletion.
 
 
 Interestingly, I also tried performing the same operation on a computer, and found that you *can* delete your own profile from your own profile on the desktop version. This inconsistency between the iPad app and the desktop experiences makes the iPad's limitation feel even more arbitrary. Perhaps the Netflix development team assumes that children are more likely to use tablets than PCs, so they applied stricter safeguards on the iPad app.
